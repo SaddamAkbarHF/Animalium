@@ -9,8 +9,16 @@
     <ImageView
         android:id="@+id/im_logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:src="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/meditTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/im_logo"
+        android:hint="Masukan nama Anda!"/>
+
 
     <Button
         android:id="@+id/btnMasuk"
